@@ -12,21 +12,19 @@ github:
   user: Daniel-Fuckner
   repo: Clubheim
 ---
-
-## Test
 ```{r echo = F ,results='asis', message = FALSE}
 data(cars)
-hist(cars[,1])
 ```
+
+## Test
+
 
 ---
 
 ## Motion Chart
 
-```{r echo = F , results = 'asis',message = FALSE}
-require(googleVis)
-M1  <- gvisMotionChart(Fruits,idvar='Fruit', timevar="Year")
-print(M1, tag = 'chart')
+```{r echo = F , results = 'asis', message = FALSE}
+
 ```
 
 ---
