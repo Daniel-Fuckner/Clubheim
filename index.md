@@ -12,36 +12,24 @@ github:
   user: Daniel-Fuckner
   repo: Clubheim
 ---
+
+## Test
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
+
+
+---
+
 ## Motion Chart
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>MotionChartID6fe5a187d7d</title>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<style type="text/css">
-body {
-  color: #444444;
-  font-family: Arial,Helvetica,sans-serif;
-  font-size: 75%;
-  }
-  a {
-  color: #4D87C7;
-  text-decoration: none;
-}
-</style>
-</head>
-<body>
- <!-- MotionChart generated in R 3.0.2 by googleVis 0.4.7 package -->
-<!-- Thu Dec 19 21:16:20 2013 -->
+<!-- MotionChart generated in R 3.0.2 by googleVis 0.4.7 package -->
+<!-- Thu Dec 19 22:12:51 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID6fe5a187d7d () {
+function gvisDataMotionChartID86171ab5df6 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -139,14 +127,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID6fe5a187d7d() {
-var data = gvisDataMotionChartID6fe5a187d7d();
+function drawChartMotionChartID86171ab5df6() {
+var data = gvisDataMotionChartID86171ab5df6();
 var options = {};
 options["width"] =    600;
 options["height"] =    500;
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID6fe5a187d7d')
+    document.getElementById('MotionChartID86171ab5df6')
     );
     chart.draw(data,options);
     
@@ -170,9 +158,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID6fe5a187d7d);
+callbacks.push(drawChartMotionChartID86171ab5df6);
 })();
-function displayChartMotionChartID6fe5a187d7d() {
+function displayChartMotionChartID86171ab5df6() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -196,21 +184,13 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID6fe5a187d7d"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID86171ab5df6"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID6fe5a187d7d"
+<div id="MotionChartID86171ab5df6"
   style="width: 600px; height: 500px;">
 </div>
- <div><span>Data: Fruits &#8226; Chart ID: <a href="Chart_MotionChartID6fe5a187d7d.html">MotionChartID6fe5a187d7d</a></span><br /> 
-<!-- htmlFooter -->
-<span> 
-  R version 3.0.2 (2013-09-25) &#8226; <a href="http://code.google.com/p/google-motion-charts-with-r/">googleVis-0.4.7</a>
-  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/motionchart.html#Data_Policy">Data Policy</a>
-</span></div>
-</body>
-</html>
 
 
 ---
