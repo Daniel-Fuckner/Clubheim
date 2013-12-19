@@ -22,14 +22,14 @@ github:
 ## Motion Chart
 
 <!-- MotionChart generated in R 3.0.2 by googleVis 0.4.7 package -->
-<!-- Thu Dec 19 22:12:51 2013 -->
+<!-- Thu Dec 19 22:17:27 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID86171ab5df6 () {
+function gvisDataMotionChartID87c425aa9f0 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -127,14 +127,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID86171ab5df6() {
-var data = gvisDataMotionChartID86171ab5df6();
+function drawChartMotionChartID87c425aa9f0() {
+var data = gvisDataMotionChartID87c425aa9f0();
 var options = {};
 options["width"] =    600;
 options["height"] =    500;
 
     var chart = new google.visualization.MotionChart(
-    document.getElementById('MotionChartID86171ab5df6')
+    document.getElementById('MotionChartID87c425aa9f0')
     );
     chart.draw(data,options);
     
@@ -158,9 +158,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartMotionChartID86171ab5df6);
+callbacks.push(drawChartMotionChartID87c425aa9f0);
 })();
-function displayChartMotionChartID86171ab5df6() {
+function displayChartMotionChartID87c425aa9f0() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -184,11 +184,11 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID86171ab5df6"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID87c425aa9f0"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID86171ab5df6"
+<div id="MotionChartID87c425aa9f0"
   style="width: 600px; height: 500px;">
 </div>
 
