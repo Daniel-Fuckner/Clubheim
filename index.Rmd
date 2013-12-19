@@ -8,6 +8,9 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
+github:
+  user: Daniel-Fuckner
+  repo: Clubheim
 ---
 ## Motion Chart
 
