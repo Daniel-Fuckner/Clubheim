@@ -14,10 +14,10 @@ github:
 ---
 ## Motion Chart
 
-```{r echo = F , results = 'asis',message=F}
+```{r echo = F , results = 'asis',message = F}
 require(googleVis)
 M1  <- gvisMotionChart(Fruits,idvar='Fruit', timevar="Year")
-plot(M1)
+print(M1)
 ```
 
 ---
